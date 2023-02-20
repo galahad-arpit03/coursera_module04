@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coursera module 4 Solutions</title>
+  </head>
+  <body>
+    <h1>Hello Coursera</h1>
+    <script>
+      const names = ["John", "Jane", "Mary", "Joe"];
+      //       var names = prompt("Enter any  name ");
+
+      for (let i = 0; i < names.length; i++) {
+        const name = names[i];
+        const firstLetter = name.charAt(0);
+
+        if (firstLetter.toLowerCase() === "j") {
+          console.log(`Goodbye ${name}`);
+        } else {
+          console.log(`Hello ${name}`);
+        }
+      }
+    </script>
+  </body>
+</html>
